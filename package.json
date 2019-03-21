@@ -1,9 +1,11 @@
 {
-  "name": "mini",
-  "version": "1.0.0",
+  "name": "node-mini",
+  "version": "1.0.1",
   "description": "mini (modify-ini) is a command line utility for reading and modifying keys in ini configuration files.",
   "main": "index.js",
-  "bin": "index.js",
+  "bin": {
+    "mini": "index.js"
+  },
   "scripts": {
     "test": "node tests/index.test.js"
   },
@@ -22,7 +24,7 @@
     "node": ">=8.5.0"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/CoryG89/mini.git"
+    "type": "git",
+    "url": "https://github.com/CoryG89/mini.git"
   }
 }
